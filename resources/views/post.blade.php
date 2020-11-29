@@ -1,14 +1,6 @@
 @extends('layouts.master')
-<!DOCTYPE html>
-<html lang="en">
+@section('title', 'Clean Blog - Sample Post')
 
-<head>
-
-    @section('title', 'Clean Blog - Sample Post')
-
-</head>
-
-<body>
 @section('content')
   <!-- Navigation -->
 
@@ -77,17 +69,6 @@
     </div>
   </article>
 
-  <hr>
 
-  <!-- Footer -->
-
-
-  <!-- Bootstrap core JavaScript -->
-
-
-  <!-- Custom scripts for this template -->
 @endsection
 
-</body>
-
-</html>

@@ -1,20 +1,6 @@
 @extends('layouts.master')
-<!DOCTYPE html>
-
-
-<html lang="en">
-
-<head>
-
-    @section('title', 'Clean Blog')
-
-</head>
-
-<body>
+@section('title', 'Clean Blog')
 @section('content')
-  <!-- Navigation -->
-
-
 
   <!-- Page Header -->
   <header class="masthead" style="background-image: url('img/home-bg.jpg')">
@@ -89,15 +75,12 @@
         </div>
         <hr>
         <!-- Pager -->
+          <div class="clearfix">
+              <a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
+          </div>
+      </div>
+    </div>
+  </div>
 
-
-  <!-- Footer -->
-
-
-  <!-- Bootstrap core JavaScript -->
-
-  <!-- Custom scripts for this template -->
 @endsection
-</body>
 
-</html>

@@ -1,17 +1,6 @@
 @extends('layouts.master')
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-
-    @section('title', 'Clean Blog - Contact')
-
-</head>
-
-<body>
+@section('title', 'Clean Blog - Contact')
 @section('content')
-  <!-- Navigation -->
-
 
   <!-- Page Header -->
   <header class="masthead" style="background-image: url('img/contact-bg.jpg')">
@@ -73,21 +62,5 @@
     </div>
   </div>
 
-  <hr>
-
-  <!-- Footer -->
-
-
-  <!-- Bootstrap core JavaScript -->
-
-
-  <!-- Contact Form JavaScript -->
-  <script src="js/jqBootstrapValidation.js"></script>
-  <script src="js/contact_me.js"></script>
-
-  <!-- Custom scripts for this template -->
 
 @endsection
-</body>
-
-</html>
